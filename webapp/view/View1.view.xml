@@ -1,0 +1,23 @@
+<mvc:View xmlns:html="http://www.w3.org/1999/xhtml" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" controllerName="camCameraApp.controller.View1" displayBlock="true">
+	<App>
+		<pages>
+			<Page title="{i18n>title}">
+				<content>
+				    <sap.ui.layout.form:SimpleForm editable="true" layout="ResponsiveGridLayout" xmlns:sap.ui.layout.form="sap.ui.layout.form" xmlns:sap.ui.core="sap.ui.core" id="__form1">
+				        <sap.ui.layout.form:content>
+				            <sap.ui.core:Title text="Title" id="__title1"/>
+				            <Label text="Object Name" id="__label2"/>
+				            <Input width="100%" id="__input3"/>
+				            <Input width="100%" id="__input4"/>
+				            <Label text="Price" id="__label3"/>
+				            <Input width="100%" id="__input5"/></sap.ui.layout.form:content>
+				    </sap.ui.layout.form:SimpleForm>
+				    <Button text="Take Photo" width="100px" id="__button0" activeIcon="sap-icon://camera" press="takePhoto"/>
+				    <VBox id="_image0">
+				    	
+				    </VBox>
+				</content>
+			</Page>
+		</pages>
+	</App>
+</mvc:View>
